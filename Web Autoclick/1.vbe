@@ -1,0 +1,9 @@
+set ws=wscript.createobject("wscript.shell") 
+rem ws.run "自动开关网页.bat /start",0 
+rem cd C:\Program Files\Internet Explorer
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=79755",0
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=82320",0
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=82335",0
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=82326",0
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=82340",0
+ws.run "iexplore.exe.lnk http://www.zomop.com/down/to.php?adurl=http://www.zomop.com&aduid=82343",0

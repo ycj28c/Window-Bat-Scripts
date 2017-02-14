@@ -1,0 +1,1 @@
+for /f "delims=: tokens=1,2" %%a in (代理2.txt,代理3.txt) do (ping %%a -n 1 -w 15>nul&&echo %%a:%%b>>live2.txt)
